@@ -1,0 +1,67 @@
+/* Universal Styles */
+
+
+
+/* Header */
+header {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+header .logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.logo span {
+  display: inline-flex;
+  color: MediumAquamarine;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-align: left;
+}
+nav {
+  display: inline-flex;
+}
+ul {
+  text-align: right;
+}
+nav li {
+  display: inline-flex;
+  color: black;
+  padding: 0 10px;
+}
+nav a {
+  color: black;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*Columns*/
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.column.large {
+  width: 630px;
+  }
+
+/*Medium Column*/
+.column.medium {
+  width: 300px;
+}
+
+/*Small Column*/
+.column.small {
+  width: 240px;
+}
